@@ -2,7 +2,7 @@ package Chapter1_practice;
 
 import java.util.Scanner;
 
-public class Practice_Set {
+public class Practice_Set_1 {
     public static void main() {
         Scanner input = new Scanner(System.in);
         //Programm to Sum three numbers

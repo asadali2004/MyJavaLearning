@@ -2,21 +2,24 @@ package Chapter2_practice_set;
 
 import java.util.Scanner;
 
-public class PracticeSet {
+public class Practice_Set_2 {
     public static void main() {
         Scanner input = new Scanner(System.in);
        
         // result of float a = 7/4*9/2 = 4;
 
-        System.out.println("Result is " + 7 / 4 * 9 / 2);
+        System.out.println("Result is " + 7 / 4.0f * 9 / 2.0f);
         
 
-        // encript decript
+        // encript decript grade
 
-        System.out.print("Enter Your Data: ");
-        int data = input.nextInt();
-        int encrypt = data + 8;
-        System.out.println("Your extual Data : " + (encrypt - 8));
+        System.out.print("Enter Your Grade: ");
+        char data = input.next().charAt(0);
+        char encrypt = (char) (data + 8);
+        System.out.println("Your Encrypted Grade: " + encrypt);
+        char dec = (char) (encrypt - 8);
+        System.out.println("Your Decrepted Grade: " + dec);
+
         
         // Given Number is greater than userinput or not
         

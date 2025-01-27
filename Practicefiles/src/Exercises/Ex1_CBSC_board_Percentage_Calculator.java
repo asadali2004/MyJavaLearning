@@ -1,6 +1,8 @@
-package Chapter1_practice;
+package Exercises;
 
-public class CBSCpercentage {
+import java.util.Scanner;
+
+public class Ex1_CBSC_board_Percentage_Calculator {
     public static void main(str[] arg) {
         
         Scanner input = new Scanner(System.in);
